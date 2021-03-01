@@ -1,19 +1,52 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
+# Cloud Architect, Core Services
+- company: Eaton Vance Management
+  position: Cloud Architect, Core Services
+  duration: Apr, 2019 &mdash; Present
   summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: Eaton Vance Management
+  position: Network Automation Engineer
+  duration: Oct, 2017  &mdash; Apr, 2020
+  summary: <ul class="resume-item-list"><li>Designed network solutions and maintain service levels across 20 datacenter and remote offices.</li><li>Introduced end-to-end workflow automation via Ansible and Python to infrastructure teams & management.</li><li>Led liaising with engineers & business stakeholders to integrate acquisition networks.</li><li>Drove efforts to standardize network infrastructure, and implement operations training for junior engineers.</li><li>Participated on pilot team to implement Agile workflow and cross-team collaboration for infrastructure team.</li><li>Worked with network visibility vendors to produce single pane-of-glass for identifying network pain points.</li></ul>
 
+# Global Network Engineer
+- company: SS&C Technologies
+  position: Global Network Engineer
+  duration: Oct, 2014 &mdash; Oct. 2017
+  summary: <ul class="resume-item-list"><li>Single point of contact for network troubleshooting and monitoring of 80+ global offices and datacenters.</li><li>Built Solarwinds alerting & monitoring system to provide Helpdesk with necessary info for circuit outages.</li><li>Built relationships and coordinated upgrades with local IT staff of our offices as large as 400+ users.</li><li>Built relationships and coordinated upgrades with local IT staff of our offices as large as 400+ users.</li></ul>
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+# Network Engineer, Financial Markets Group
+- company: SS&C Technologies
+  position: Network Engineer, Financial Markets Group
+  duration: Oct, 2013 &mdash; Oct, 2014
+
+# Lab Consultant / UI Developer / UI Admin
+- company: Columbia University
+  position: Lab Consultant; UI Developer; UI Admin
+  duration: Sept, 2012 &mdash; May, 2014
+
+# Computer Technician
+- company: General Dynamics
+  position: Intern
+  duration: May, 2013 &mdash; Aug, 2013
+
+# Computer Technician
+- company: Providence College
+  position: Computer Technician
+  duration: Jan, 2011 &mdash; Aug, 2012
+
+# Intern, Community-Based Service Internship, Ghana
+- company: Providence College
+  position: Intern, Community-Based Service Internship, Ghana
+  duration: May, 2012 &mdash; Jun, 2012
+
+# Research Assistance
+- company: Providence College
+  position: Research Assistant
+  duration: Jan, 2012  &mdash; May, 2012
+
+# Helpdesk Assistant
+- company: Providence College
+  position: Helpdesk Assistant
+  duration: Sept, 2010  &mdash; Dec, 2010
