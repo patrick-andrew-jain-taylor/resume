@@ -3,7 +3,7 @@
 - company: Eaton Vance Management
   position: Cloud Architect, Core Services
   duration: Apr, 2019 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+  summary: <ul class="resume-item-list"><li>Designed Terraform account vending machine & multi-region landing zone for 40+ AWS accounts across the organization (CloudFormation, Config, EBS, EC2 Auto Scaling, ECR, KMS, IAM, PrivateLink, RDS, Route 53, Route 53 Resolver, Security Groups, Secrets Manager, S3, and VPC).</li>Architected & deployed infrastructure for Linux/Apache/MSSQL/PHP public website (CloudFront, EventBridge, EC2 Auto Scaling, Elastic Load Balancing v2 (Application & Network), Lambda, SNS, Step Functions, RDS, WAF)<li>Devised pull-based & push-based logging mechanisms (Elastic Load Balancing v1, Kinesis Data Streams, Kinesis Firehose, Lambda, S3, SQS) for various AWS logs types to our Splunk heavy forwarders.</li><li>Templatized our 150+ module Terraform service catalog for developer self-service of infrastructure as code, with actively-maintained READMEs and release publishes to ensure backward compatibility with Terraform version & provider version updates.</li><li>Modularized our multi-region core networking architecture for edge web traffic inspection, load balancer sandwiching, and inter/intra-VPC networking (CloudWatch Logs, Direct Connect, Elastic IPs, Flow Logs, IAM, Network Interfaces, Route Tables, Security Groups, Transit Gateway, VPC, VPN Connections & Gateways</li><li>Built RSS-feed utility to notify our Teams Channel for updates to our Office 365 Proxy Allow List (DynamoDB, Lambda & SNS), as well as wrote custom Python library for Symantic Bluecoat API to feed these updates into our Secure Gateways.</li></ul>
 
 - company: Eaton Vance Management
   position: Network Automation Engineer
@@ -14,20 +14,22 @@
 - company: SS&C Technologies
   position: Network Engineer
   duration: Oct, 2013 &mdash; Oct. 2017
-  summary: <ul class="resume-item-list"><li>Single point of contact for network troubleshooting and monitoring of 80+ global offices and datacenters.</li><li>Built Solarwinds alerting & monitoring system to provide Helpdesk with necessary info for circuit outages.</li><li>Built relationships and coordinated upgrades with local IT staff of our offices as large as 400+ users.</li><li>Built relationships and coordinated upgrades with local IT staff of our offices as large as 400+ users.</li></ul>
+  summary: Worked from site-to-site VPN & firewall administration, to developing new methods for designing & deploying branch office and datacenter networks.<ul class="resume-item-list"><li>Single point of contact for network troubleshooting and monitoring of 80+ global offices and datacenters.</li><li>Built Solarwinds alerting & monitoring system to provide Helpdesk with necessary info for circuit outages.</li><li>Built relationships and coordinated upgrades with local IT staff of our offices as large as 400+ users.</li><li>Built relationships and coordinated upgrades with local IT staff of our offices as large as 400+ users.</li></ul>
 
 # Lab Consultant / UI Developer / UI Admin
 - company: Columbia University
-  position: Lab Consultant; UI Developer; UI Admin
+  position: Lab Consultant - UI Developer - UI Admin
   duration: Sept, 2012 &mdash; May, 2014
+  summary: Responsible for support of lab patron needs, as well as maintaining Perl & Oracle DBM-based wiki for fellow consultants.
 
 # Computer Technician
 - company: General Dynamics
   position: Intern
   duration: May, 2013 &mdash; Aug, 2013
+  summary: Responsible for supporting on-the-move (OTM) and at-the-halt (ATH) military ISP architecture.
 
 # Various
 - company: Providence College
   position: Various
   duration: Sept, 2010  &mdash; Aug, 2012
-  summary: <ul class="resume-item-list"><li>Computer Technician</li><li>Intern, Community-Based Service Internship, Ghana</li><li>Research Assistant</li><li>Helpdesk Assistant</li></ul>
+  summary: <ul class="resume-item-list"><li>Computer Technician for Providence College Information Technology department.</li><li>Intern for the Community-Based Service Internship in Accra, Ghana responsible for deploying Ubuntu PCs for Internet Cafes.</li><li>Research Assistant on the Global Sustainable Aid Project (GSAP) microflush toilet system.</li></ul>
