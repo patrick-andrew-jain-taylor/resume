@@ -4,5 +4,13 @@
 - project: The Jain-Taylor Family Cookbook
   role: Developer
   duration: 2020 &mdash; Present
-  url: "https://recipes.jaintaylor.family/"
+  url: "https://github.com/patrick-andrew-jain-taylor/jain-taylor-family-cookbook"
   description: This is a personal project to maintain our family recipes in source control, using Jekyll & Github Pages to render the updated Markdown.
+
+
+# Resume
+- project: Resume
+  role: Developer
+  duration: 2021 &mdash; Present
+  url: "https://github.com/patrick-andrew-jain-taylor/resume"
+  description: This is a personal project to keep my resume up to date, using a combination of Github Actions and Terraform Cloud to build the repository, and using Jekyll & Github Pages to render YAML.
