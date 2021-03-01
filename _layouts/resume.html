@@ -68,12 +68,32 @@
       <!-- end Experience -->
       {% endif %}
 
+      {% if site.resume_section_certification %}
+      <!-- begin Certification -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Certification</h2>
+        </header>
+
+        {% for certification in site.data.certifications %}
+        <div class="resume-item">
+          <h3 class="resume-item-title" itemprop="award">{{ certification.award }}</h3>
+          <h4 class="resume-item-details">{{ certification.organization }} &bull; {{ certification.year }}</h4>
+          <p class="resume-item-copy">{{ certification.summary }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Certification -->
+      {% endif %}
+
 
       {% if site.resume_section_education %}
       <!-- begin Education -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Education & Certification</h2>
+          <h2>Education</h2>
         </header>
 
         {% for education in site.data.education %}
@@ -133,26 +153,6 @@
 
       </section>
       <!-- end Skills -->
-      {% endif %}
-
-      {% if site.resume_section_certification %}
-      <!-- begin Certification -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Certification</h2>
-        </header>
-
-        {% for certification in site.data.certifications %}
-        <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">{{ certification.award }}</h3>
-          <h4 class="resume-item-details">{{ certification.organization }} &bull; {{ certification.year }}</h4>
-          <p class="resume-item-copy">{{ certification.summary }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Certification -->
       {% endif %}
 
       {% if site.resume_section_associations %}
