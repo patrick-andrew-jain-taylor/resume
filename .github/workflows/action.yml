@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Webpage to PDF
-        uses: misaelnieto/web_to_pdf_action@v0.3.1
+        uses: SetiZ/web_to_pdf_action@master
         with:
           webPageURL: https://resume.patrick.jaintaylor.family
           outputFile: webpage/resume.pdf
