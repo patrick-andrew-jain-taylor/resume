@@ -15,7 +15,7 @@ jobs:
           webPageURL: https://resume.patrick.jaintaylor.family
           outputFile: webpage/resume.pdf
           usePuppeteer: true
-#          pdfOptions: '{"format": "A4", "margin": {"left": "2cm", "top": "4cm", "right": "1cm", "bottom": "3.5cm"}}'
+          pdfOptions: '{"format": "A4", "margin": {"left": "2cm", "top": "4cm", "right": "1cm", "bottom": "3.5cm"}}'
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'change: Generate PDF'
