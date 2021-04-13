@@ -14,7 +14,7 @@ resume_name:                    "Patrick A. Jain-Taylor"
 resume_title:                   "Cloud Architect"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "patrick.andrew.taylor@gmail.com.com"
+resume_contact_email:           "patrick.andrew.taylor@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "(908) 340-9788"
@@ -37,7 +37,7 @@ resume_section_experience:      true
 resume_section_education:       true
 resume_section_projects:        true
 resume_section_skills:          true
-resume_section_certification:     true
+resume_section_certification:    true
 resume_section_links:           false
 resume_section_associations:    true
 resume_section_interests:       false
@@ -46,11 +46,8 @@ resume_section_interests:       false
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   resume_github_url:            "https://github.com/patrick-andrew-jain-taylor"
-  resume_twitter_url:           "http://twitter.com/pjaintaylor"
-  # resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
+  resume_twitter_url:           "https://twitter.com/pjaintaylor"
   resume_linkedin_url:          "https://www.linkedin.com/in/pjaintaylor"
-  # resume_instagram_url:         "insert your Instagram URL here"
   resume_website_url:           "https://github.com/patrick-andrew-jain-taylor/resume"
   resume_medium_url:            "https://medium.com/@pjaintaylor"
   resume_pdf_url:               "https://github.com/patrick-andrew-jain-taylor/resume/raw/main/webpage/resume.pdf"
