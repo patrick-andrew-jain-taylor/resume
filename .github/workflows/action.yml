@@ -9,13 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Webpage to PDF
-        uses: SetiZ/web_to_pdf_action@master
+      - name: html to pdf
+        uses: misaelnieto/web_to_pdf_action@master
         with:
-          webPageURL: https://resume.patrick.jaintaylor.family/webpage/resume.pdf
-          outputFile: webpage/resume.pdf
+          webPageURL: https://resume.patrick.jaintaylor.family
+          outputFile: ./webpage/resume.pdf
           usePuppeteer: true
-          pdfOptions: '{"format": "A4", "margin": {"left": "2cm", "top": "4cm", "right": "1cm", "bottom": "3.5cm"}}'
+          useScreen: true
+          pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Generate PDF
