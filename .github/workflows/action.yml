@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: html to pdf
-        uses: misaelnieto/web_to_pdf_action@master
+      - name: Webpage to PDF
+        uses: misaelnieto/web_to_pdf_action@v0.3.1
         with:
           webPageURL: https://resume.patrick.jaintaylor.family
           outputFile: ./webpage/resume.pdf
