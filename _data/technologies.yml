@@ -1,13 +1,15 @@
 # Technologies
-- service: Cloud Computing
-  technologies: AWS Certificate Manager, CloudFormation, CloudFront, CloudWatch Logs, Config, Direct Connect, DynamoDB, EBS, EC2 Auto Scaling, ECR, Elastic Load Balancing v1 & v2, EventBridge, IAM, Kinesis Data Streams & Firehose, KMS, Lambda, PrivateLink, RDS, Route 53, Route 53 Resolver, S3, Security Groups, Secrets Manager, SNS, SQS, Step Functions, Transit Gateway, VPC, WAF
+- service: Amazon Web Services
+  technologies: Backup, Certificate Manager, CloudFormation, CloudFront, CloudWatch Logs, Config, Direct Connect, DynamoDB, EBS, EC2 Auto Scaling, ECR, Elastic Load Balancing v1 & v2, EventBridge, IAM, Kinesis Data Streams & Firehose, KMS, Lambda, PrivateLink, RDS, Route 53, Route 53 Resolver, S3, Security Groups, Secrets Manager, SNS, SQS, Step Functions, Transit Gateway, VPC, WAF
+- service: Third-Party Cloud Services
+  technologies: Bridgecrew, CloudHealth, Datadog, Prisma, Snowflake, Splunk
 - service: Infrastructure as Code & Configuration Management
-  technologies: Terraform, Ansible
+  technologies: Terraform, CloudFormation, Ansible, Chef
 - service: Continuous Integration & Continuous Delivery
-  technologies: Github Actions, GitLab Runner, Jenkins
+  technologies: Github Actions, GitLab Runner
 - service: Programming Languages
-  technologies: Python, Golang, C++, C
+  technologies: Python, Golang
 - service: Agile Technologies
-  technologies: Atlassian Jira, Confluence, Trello
+  technologies: Atlassian Jira, Confluence
 - service: Networking
   technologies: Cisco, Juniper, Aruba, Palo Alto Networks
