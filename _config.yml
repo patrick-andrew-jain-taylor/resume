@@ -17,10 +17,10 @@ resume_title:                   "Cloud Architect"
 resume_contact_email:           "patrick.andrew.taylor@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "(908) 340-9788"
+resume_contact_telephone:       "(508) 565-8116"
 resume_contact_address:         "Boston, MA"
 
-resume_header_contact_info:     "Boston, MA • (908) 340-9788 • patrick.andrew.taylor@gmail.com"
+resume_header_contact_info:     "Boston, MA • (508) 565-8116 • patrick.andrew.taylor@gmail.com"
 display_header_contact_info:    "true"
 
 resume_header_intro: "<p>Professional Cloud Architect with 8+ years of experience in Information Technology in Financial Services. Skilled in Amazon Web Services, Terraform, Python, and Networking. Strong focus on leadership, team building, and organizational advancement. How can I help?</p>"
