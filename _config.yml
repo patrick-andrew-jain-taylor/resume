@@ -51,7 +51,7 @@ resume_social_links:
   resume_linkedin_url:          "https://www.linkedin.com/in/pjaintaylor"
   resume_website_url:           "https://github.com/patrick-andrew-jain-taylor/resume"
   resume_medium_url:            "https://medium.com/@pjaintaylor"
-  resume_pdf_url:               "https://github.com/patrick-andrew-jain-taylor/resume/raw/main/webpage/resume.pdf"
+  resume_pdf_url:               "https://github.com/patrick-andrew-jain-taylor/resume/raw/pdf/webpage/resume.pdf"
 resume_print_social_links:      true
 
 # Design settings
