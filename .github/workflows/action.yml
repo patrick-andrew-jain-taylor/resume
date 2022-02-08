@@ -1,9 +1,12 @@
 name: Webpage - Resume
 on:
-  workflow_run:
-    workflows: [pages-build-deployment]
-    types:
-      - completed
+  push:
+    branches:
+      - main
+#  workflow_run:
+#    workflows: [pages build and deployment]
+#    types:
+#      - completed
 
 jobs:
   webpage-resume-pdf:
