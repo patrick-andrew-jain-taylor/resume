@@ -1,4 +1,4 @@
-name: CI
+name: Webpage - Resume
 on:
   workflow_run:
     workflows: [pages-build-deployment]
@@ -6,8 +6,8 @@ on:
       - completed
 
 jobs:
-  build:
-    name: Build
+  webpage-resume-pdf:
+    name: Webpage - Resume - PDF
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
