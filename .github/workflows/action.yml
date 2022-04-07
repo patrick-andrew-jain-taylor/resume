@@ -14,12 +14,13 @@ jobs:
         with:
           ref: pdf
       - name: Webpage to PDF
-        uses: SetiZ/web_to_pdf_action@master
+        uses: misaelnieto/web_to_pdf_action@master
         with:
           webPageURL: https://resume.patrick.jaintaylor.family
           outputFile: webpage/resume.pdf
           usePuppeteer: true
-          pdfOptions: '{"margin": {"top": "0.5in", "bottom": "0.5in"}}'
+          useScreen: true
+          pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'change: Generate PDF'
