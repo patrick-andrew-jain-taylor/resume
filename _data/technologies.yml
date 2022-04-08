@@ -8,7 +8,7 @@
 - service: Continuous Integration & Continuous Delivery
   technologies: Github Actions, GitLab Runner
 - service: Programming Languages
-  technologies: Python
+  technologies: Python, Bash/ZSH
 - service: Agile Technologies
   technologies: Atlassian Jira & Confluence
 - service: Networking
