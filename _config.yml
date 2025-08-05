@@ -23,7 +23,7 @@ resume_contact_address:         "San Jose, CA"
 resume_header_contact_info:     "San Jose, CA • (508) 565-8116 • patrick.andrew.taylor@gmail.com"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>Professional Cloud Architect and DevOps Engineer with 10+ years of experience in Information Technology in Financial & Mental Health Services. Skilled in Amazon Web Services, Terraform, Kubernetes, Python, and Networking. Strong focus on leadership, team building, and organizational advancement. How can I help?</p>"
+resume_header_intro: "<p>Strategic and results-driven DevOps leader with a record of enhancing enterprise cloud security, scalability, and operational efficiency. Proven expertise in architecting large-scale AWS environments, implementing Zero-Trust network models, and cultivating high-performing engineering teams. Adept at driving standardization and adopting Agile & DevOps best practices to accelerate business value delivery.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
