@@ -11,16 +11,16 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Patrick A. Jain-Taylor"
-resume_title:                   "Cloud Architect | DevOps Engineer"
+resume_title:                   "Manager, DevOps Engineering"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "patrick.andrew.taylor@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "(508) 565-8116"
-resume_contact_address:         "San Jose, CA"
+resume_contact_address:         "Northwest Arkansas"
 
-resume_header_contact_info:     "San Jose, CA • (508) 565-8116 • patrick.andrew.taylor@gmail.com"
+resume_header_contact_info:     "Northwest Arkansas • (508) 565-8116 • patrick.andrew.taylor@gmail.com"
 display_header_contact_info:    "true"
 
 resume_header_intro: "<p>Strategic and results-driven DevOps leader with a record of enhancing enterprise cloud security, scalability, and operational efficiency. Proven expertise in architecting large-scale AWS environments, implementing Zero-Trust network models, and cultivating high-performing engineering teams. Adept at driving standardization and adopting Agile & DevOps best practices to accelerate business value delivery.</p>"
@@ -50,7 +50,7 @@ resume_social_links:
   # resume_twitter_url:           "https://twitter.com/pjaintaylor"
   resume_linkedin_url:          "https://www.linkedin.com/in/pjaintaylor"
   resume_website_url:           "https://github.com/patrick-andrew-jain-taylor/resume"
-  resume_medium_url:            "https://medium.com/@pjaintaylor"
+  # resume_medium_url:            "https://medium.com/@pjaintaylor"
   resume_pdf_url:               "https://github.com/patrick-andrew-jain-taylor/resume/raw/pdf/webpage/resume.pdf"
 resume_print_social_links:      true
 
