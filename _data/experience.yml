@@ -7,7 +7,7 @@
 
 - position: Lead, DevOps Engineer
   duration: Jul. 2023 &mdash; Jul. 2024
-  summary: Driving initiatives to standardize our cloud deployments, zero-trust network access, and DevOps best practices for the broader organization.<ul class="resume-item-list"><li>Leading initiative to migrate away from our legacy zero-trust network access (ZTNA) solution to Banyan Security ZTNA, and now support 600 services across 2000 internal users using this platform.</li><li>Deployed AWS Control Tower in our AWS Organization to deploy new AWS accounts with necessary security controls & governance, deploy well-architected solutions to our accounts using Account Factory for Terraform, and support future initiatives to fan out our existing applications into dedicated account stacks.</li><li>Mentoring junior & mid-level colleagues through dedicated 1-on-1 time, scheduled office hours, and a bi-weekly show & tell event for all DevOps members to demonstrate their work to the team and critical stakeholders.</li><li>Providing architectural & engineering support for internal security trainings with phishing simulations, including the management of Well-Architected ACM, ELB, IAM, Route 53, ACM, SES, VPC, and WAF services.</li><li>Designing a global cloud network using AWS Network Manager, to reduce our reliance on VPC peering, ensure reachability of resources across regions, analyze & enforce least-privileged access between resources, and manage IP space effectively as we scale.</li></ul>
+#  summary: 
 
 - position: Senior DevOps Engineer
   duration: Jul. 2022 &mdash; Jun. 2023
