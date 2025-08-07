@@ -1,17 +1,15 @@
 # Technologies
-- service: Amazon Web Services
-  technologies: Auto Scaling, Backup, Certificate Manager, CloudFormation, CloudFront, CloudWatch Logs, Config, Control Tower, Direct Connect, DynamoDB, EBS, ECR, ECS, EKS, ELB, EventBridge, IAM, Kinesis Data Streams & Firehose, KMS, Lambda, PrivateLink, RDS, Route 53, Route 53 Resolver, S3, Security Groups, Secrets Manager, SNS, SQS, Step Functions, Transit Gateway, VPC, WAF
-- service: Third-Party Cloud Services
-  technologies: Artifactory, Bridgecrew, CloudHealth, Datadog, Nexus, Opal, Prisma, Snowflake, Sonatype, Splunk, Sumo Logic, Wiz
-- service: Infrastructure as Code & Configuration Management
-  technologies: Terraform, CloudFormation, Ansible, Chef
-- service: Containerization & Orchestration
-  technologies: Docker, Kubernetes
-- service: Continuous Integration & Continuous Delivery
-  technologies: Github Actions, GitLab Runner, Jenkins
-- service: Programming Languages
-  technologies: Python, Bash/ZSH
-- service: Agile Technologies
-  technologies: Atlassian Jira & Confluence
-- service: Networking
-  technologies: Cisco, Juniper, Aruba, Palo Alto Networks, Netskope, Banyan
+- service: Cloud Platforms
+  technologies: Amazon Web Services (AWS)
+- service: Infrastructure as Code (IaC) & Automation
+  technologies: Terraform, Ansible, CloudFormation, Python, Bash/ZSH, Chef
+- service: CI/CD & Source Control
+  technologies: GitHub Actions, GitLab Runner, Jenkins
+- service: Security & Governance
+  technologies: Prisma, Wiz, Bridgecrew, Opal, Netskope, Palo Alto Networks, SonicWall Cloud Secure Edge (formerly Banyan)
+- service: Observability & Monitoring
+  technologies: Datadog, Splunk, Sumo Logic, Amazon CloudWatch
+- service: Containerization & Artifacts
+  technologies: Docker, Kubernetes, JFrog Artifactory, Sonatype Nexus Repository & IQ Server
+- service: Data Platforms & Networking
+  technologies: Snowflake, Cisco, Juniper, Aruba, AWS Direct Connect, AWS Transit Gateway
