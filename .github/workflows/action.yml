@@ -14,7 +14,7 @@ jobs:
         with:
           ref: pdf
       - name: Webpage to PDF
-        uses: misaelnieto/web_to_pdf_action@master
+        uses: misaelnieto/web_to_pdf_action@68f5ea023bee362a06844daa772045a48b73d8cd # master as of 2026-08-04
         with:
           webPageURL: https://resume.patrick.taylors.family
           outputFile: webpage/resume.pdf
