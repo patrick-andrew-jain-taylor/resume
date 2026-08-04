@@ -27,13 +27,15 @@ body{
   zoom: 1;
 }
 
-// Roomier margins for desktop browsers only. The resume PDF is generated from
-// this same screen stylesheet (useScreen: true in .github/workflows/action.yml)
-// at Letter width = 816 CSS px, so wider margins must stay behind a min-width
-// query above 816px or they would loosen the PDF too.
+// Fluid width for desktop browsers only: let the resume expand with the
+// window instead of capping at the 728px column. The resume PDF renders this
+// same screen stylesheet at Letter width = 816 CSS px (useScreen: true in
+// .github/workflows/action.yml), below this query, so the PDF keeps the
+// tight fixed-column layout — as do phones, tablets, and manual printing.
 @media screen and (min-width: 1000px) {
   .wrapper {
-    padding: 56px 64px 72px;
+    max-width: none;
+    padding: 48px 6vw 64px;
   }
 }
 
