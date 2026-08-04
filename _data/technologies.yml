@@ -1,15 +1,14 @@
 # Technologies
-- service: Cloud Platforms
-  technologies: Amazon Web Services (AWS)
-- service: Infrastructure as Code (IaC) & Automation
-  technologies: Terraform, Ansible, CloudFormation, Python, Bash/ZSH, Chef
-- service: CI/CD & Source Control
-  technologies: GitHub Actions, GitLab Runner, Jenkins
-- service: Security & Governance
-  technologies: Prisma, Wiz, Bridgecrew, Opal, Netskope, Palo Alto Networks, SonicWall Cloud Secure Edge (formerly Banyan)
-- service: Observability & Monitoring
-  technologies: Datadog, Splunk, Sumo Logic, Amazon CloudWatch
-- service: Containerization & Artifacts
-  technologies: Docker, Kubernetes, JFrog Artifactory, Sonatype Nexus Repository & IQ Server
-- service: Data Platforms & Networking
-  technologies: Snowflake, Cisco, Juniper, Aruba, AWS Direct Connect, AWS Transit Gateway
+# Content source of truth: "Career Profile & Resume Master" (Notion, Job Search HQ)
+- service: Network Architecture & Automation
+  technologies: Zero-touch provisioning, intent-based networking, BGP, OSPF, SD-WAN, AWS VPC / Transit Gateway / Direct Connect / PrivateLink, IPv6, NAT64, network segmentation, firewall policy automation, L3/L4 traffic management
+- service: Infrastructure as Code
+  technologies: Terraform / OpenTofu, Ansible, CloudFormation, GitOps workflows, semantic versioning, modular IaC design
+- service: Observability & Security
+  technologies: eBPF (network flow capture, L3/L4 visibility), VPC & Transit Gateway Flow Logs, Splunk, CloudWatch, AWS Network Manager, Okta, Banyan Security / SonicWall Cloud Secure Edge / Appgate, Opal
+- service: Developer Tooling & Platform
+  technologies: Kubernetes, Docker, GitHub Actions, CI/CD pipelines, internal developer platforms, golden path tooling
+- service: Languages
+  technologies: Python, Bash, HCL
+- service: AI & Developer Productivity
+  technologies: Claude Code, OpenAI Codex, Augment Code, Microsoft Copilot; AWS Bedrock, Amazon SageMaker; Model Context Protocol (MCP), agent and skill definition, catalog design, evaluation harnesses, adoption and health metrics

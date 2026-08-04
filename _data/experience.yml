@@ -1,49 +1,40 @@
 # Jobs
+# Content source of truth: "Career Profile & Resume Master" (Notion, Job Search HQ)
+
 # Lyra Health
 - company: Lyra Health
-  position: Manager, DevOps
-  duration: Aug. 2024 &mdash; Present
-  summary: <ul class="resume-item-list"><li>Cultivated a high-performing DevOps team, achieving <strong>100% team retention</strong> over a 2-year period and successfully delivering on <strong>10+ major corporate initiatives</strong> ahead of schedule. Mentorship and career development efforts directly contributed to <strong>2 of 3</strong> engineers receiving promotions to Senior Engineer.</li><li>Spearheaded the ground-up redesign of the DevOps Agile framework to address team bottlenecks and improve workflow. This new process increased team throughput by over <strong>400%</strong>, growing the delivery rate from an average of <strong>10 issues/month to 53 issues/month</strong>. The overhaul also stabilized Work-In-Progress (WIP) and significantly reduced average ticket cycle time, boosting delivery predictability and overall team efficiency.</li><li>Championed a culture of knowledge sharing and technical excellence by establishing a DevOps 'Show & Tell' forum and dedicated office hours, increasing team engagement and accelerating skills development across junior and senior engineers.</li></ul> 
+  position: Engineering Manager, DevOps Engineering
+  duration: 2024 &mdash; Present
+  summary: <ul class="resume-item-list"><li>Leads a platform engineering team responsible for cloud infrastructure, IaC, developer tooling, and secure file transfer across Lyra's <code>AWS</code>-based production environment.</li><li>Architected and is delivering an <strong>internal governed AI platform</strong> &mdash; a tool-agnostic catalog of reusable agents, skills, instructions, integrations, and domain knowledge that behaves consistently across Codex and Claude Code. Establishes shared organizational standards for quality, safety, ownership, and evaluation so teams preserve specialized ways of working while sharing a common substrate. Piloted within DevOps; expanding into the Data and Engineering organizations.</li><li>Defined the <strong>operating model for AI artifacts as organizational assets</strong> &mdash; creation, ownership, versioning, quality tracking, and evaluation &mdash; so engineers move across domains without rebuilding their AI workflow from scratch.</li><li>Drove <strong>95% automation</strong> of infrastructure provisioning workflows, eliminating manual toil and reducing deployment lead times by <strong>60%</strong>.</li><li>Led a full DevOps transformation to an <strong>automated Scrumban operating model</strong>, planned and implemented end to end using Claude Code &mdash; replaced sprint commitments and story-point velocity with standardized intake, automated routing, and flow metrics, cutting median cycle time <strong>31%</strong> and recurring ceremony overhead <strong>79%</strong> (roughly <strong>400 team hours</strong> annualized).</li><li>Established cross-team network governance standards &mdash; consistent security group policy, traffic controls, and automated compliance across all microservices.</li><li>Delivered <strong>$140K in annual cloud cost savings</strong> through rightsizing, reserved instance planning, and automated cleanup pipelines.</li><li>Treats engineering process as a product&#58; identify friction in how the team builds and ships, then iterate on improvements.</li></ul>
 
-- position: Lead, DevOps Engineer
-  duration: Jul. 2023 &mdash; Jul. 2024
-  summary: <ul class="resume-item-list"><li>Architected and implemented AWS Control Tower and Account Factory for Terraform <code>(AFT)</code>, reducing new AWS account provisioning and baselining time from <strong>2 days to under 30 minutes</strong>—a <strong>>95%</strong> improvement. This automation guaranteed <strong>100%</strong> compliance with foundational security controls (<code>FedRAMP</code>, <code>ISO 27001</code>, <code>NIST SP 800-53</code>) and reclaimed an estimated <strong>200 engineering hours</strong> annually.</li><li>Optimized the global cloud network fabric using <code>AWS Transit Gateway</code>, replacing over <strong>20</strong> <code>VPC</code> peering connections. This new architecture centralized & simplified our overall network footprint, reduced network management overhead by an estimated <strong>10 hours per quarter</strong>, and saved our technology organization <strong>$140k</strong> in annual costs.</li></ul>
+- position: Lead DevOps Engineer
+  duration: 2023 &mdash; 2024
+  summary: <ul class="resume-item-list"><li>Designed and implemented <code>AWS Transit Gateway</code> & <code>Network Firewall</code> architecture spanning <strong>40+ VPCs</strong>, standardizing inter-service connectivity while enforcing consistent network segmentation, saving <strong>$140K</strong> in annual costs.</li><li>Led architecture and delivery of <strong>zero trust network access</strong> rollout using Banyan Security / SonicWall Cloud Secure Edge, replacing legacy VPN for <strong>800&ndash;3,000+ employees</strong> and <strong>1,000+ internal services</strong>.</li><li>Architected and deployed log ingestion pipelines (CloudFront, Route 53 Resolver Query, Transit Gateway Flow, VPC Flow) into <code>Athena</code>, enabling full network observability for security and reliability use cases.</li><li>Built <code>eBPF</code>-based network observability tooling to surface L3/L4 traffic visibility across the microservices fleet.</li><li>Drove intent-based / just-in-time access control adoption using Opal and Okta, abstracting entitlement management from individual engineers.</li></ul>
 
 - position: Senior DevOps Engineer
-  duration: Jul. 2022 &mdash; Jun. 2023
-  summary: <ul class="resume-item-list"><li>Directed the enterprise-wide migration to a modern Zero-Trust Network Access (<code>ZTNA</code>) solution (SonicWall Cloud Secure Edge, formerly Banyan), enhancing security posture and user experience for <strong>3,000+ users</strong> accessing <strong>1,000+ internal services</strong> with zero downtime.</li><li>Engineered and fully automated the cloud infrastructure supporting critical phishing simulations. This automation reduced campaign setup time by <strong>90%</strong> and enabled a training program that increased phishing email reports to <strong>24%</strong> and reduced our Phish-Prone Percentage (PPP) to <strong>9%</strong>, measurably hardening the company’s human firewall.</li></ul>
+  duration: 2022 &mdash; 2023
+  summary: <ul class="resume-item-list"><li>Designed VPC Flow Log ingestion pipeline into <code>Splunk</code> for full L3/L4 network observability.</li><li>Automated network policy enforcement using <code>Terraform</code> and <code>AWS Config Rules</code>, ensuring continuous security group compliance.</li><li>Reduced AWS network egress costs by <strong>35%</strong> through Traffic Mirroring analysis and targeted architecture changes.</li></ul>
 
-# Cloud Architect, Core Services
-- company: Eaton Vance Management, a Morgan Stanley company
-  position: Cloud Architect, Core Services
-  duration: Jan. 2019 &mdash; Jun. 2022
-  summary: Led an 11-person cloud engineering team responsible for architecting and building the company's foundational <code>AWS</code> platform, automation strategy, and self-service tooling.<ul class="resume-item-list"><li>Architected the company's foundational <code>AWS Landing Zone</code> and a <code>Terraform</code>-based "Account Vending Machine," which automated the compliant provisioning of <strong>60+ <code>AWS</code> accounts</strong> and <strong>reduced new environment setup time from multiple days to under one hour</strong>.</li><li>Pioneered a developer self-service model by creating and curating a <code>Terraform</code> service catalog of <strong>150+ reusable modules</strong>. A key module for automating <code>TLS</code> certificates via <code>ACM</code> and <code>Route 53</code> <strong>saved over $1,000 and 2 weeks of manual effort per certificate</strong>.</li><li>Engineered a secure, multi-region core network fabric and designed the company's multi-environment <code>Snowflake</code> data platform to enable secure data sharing and advanced analytics.</li></ul>
+# Morgan Stanley
+- company: Morgan Stanley
+  position: Cloud Network Architect
+  duration: 2022
+  summary: <ul class="resume-item-list"><li>Architected hybrid cloud network connectivity patterns including <code>Transit Gateway</code>, <code>Direct Connect</code>, and <code>PrivateLink</code> at financial-grade reliability standards.</li><li>Led evaluation and design of network automation tooling to replace manual firewall provisioning, reducing change lead times from <strong>days to minutes</strong>.</li><li>Architected AWS Landing Zone with Transit Gateway hub-and-spoke topology, standardizing VPC connectivity patterns across <strong>60+ accounts</strong>.</li></ul>
 
-# Network Automation Engineer
-- position: Network Automation Engineer
-  duration: Oct. 2017  &mdash; Jan. 2019
-  summary: Modernized traditional network operations across 20 datacenters by introducing <code>Python</code> and <code>Ansible</code> automation to improve efficiency and reduce human error.<ul class="resume-item-list"><li>Pioneered the use of <code>Ansible</code> and <code>Python</code> to automate network device configuration, validation, and routine changes. This initiative <strong>reduced configuration errors by over 90%</strong> and became the standard for the infrastructure team, saving hundreds of engineering hours annually.</li><li>Led multiple high-impact projects, including the architectural design for new remote offices, the <strong>technical integration of several acquisition networks</strong>, and the <strong>standardization of network hardware</strong> to improve security and reduce operational overhead.</li></ul>
+# Eaton Vance
+- company: Eaton Vance (acq. by Morgan Stanley)
+  position: Cloud Architect & Network Automation Engineer
+  duration: 2017 &mdash; 2021
+  summary: <ul class="resume-item-list"><li>Built and managed global network infrastructure spanning <strong>80 offices across 20 countries</strong>, including SD-WAN rollout and BGP routing redesign.</li><li>Designed and implemented <strong>zero-touch network automation platform</strong> using <code>Ansible</code> and <code>Python</code> &mdash; eliminating manual CLI-driven change processes entirely and enabling zero-touch provisioning for branch deployments.</li><li>Architected AWS landing zone with Transit Gateway hub-and-spoke topology across <strong>15+ accounts</strong>.</li><li>Delivered <strong>IPv6 dual-stack rollout</strong> across core network infrastructure, improving scalability and alignment with cloud-native addressing requirements.</li><li>Led full IaC migration of network configurations to <code>Terraform</code>, version-controlling all network state and enabling GitOps-style change management.</li><li>Automated DNS provisioning using <code>Ansible</code> + <code>Infoblox</code> integration, reducing ticket resolution time from <strong>days to minutes</strong>.</li></ul>
 
-# Global Network Engineer
+# SS&C Technologies
 - company: SS&C Technologies
+  position: Network Engineer, Global Infrastructure
+  duration: 2014 &mdash; 2017
+  summary: <ul class="resume-item-list"><li>Managed global WAN and LAN across <strong>30+ sites</strong> supporting <strong>10,000+ employees</strong>.</li><li>Built <code>Python</code>-driven firewall policy automation, reducing provisioning errors by <strong>80%</strong>.</li><li>Led BGP and OSPF redesign to improve convergence and resilience across the core network.</li></ul>
+
+# SS&C Tradeware
+- company: SS&C Tradeware
   position: Network Engineer
-  duration: Oct. 2013 &mdash; Oct. 2017
-  summary: Progressed from network administration to a <strong>lead engineering role</strong> with <strong>full ownership</strong> of the design, deployment, and operations for a corporate network spanning <strong>80+ branch offices</strong> and datacenters.
-
-# Lab Consultant / UI Developer / UI Admin
-- company: Columbia University
-  position: CU Information Technology (CUIT)
-  duration: Sept. 2012 &mdash; May. 2014
-#  summary: <ul class="resume-item-list"><li><b>Lab Consultant</b> responsible for support of lab patron needs.</li><li><b>UI Developer & Administrator</b> responsible for maintenance of Perl & Oracle DBM-based wiki for fellow consultants.</li></ul>
-
-# Computer Technician
-- company: General Dynamics
-  position: Intern
-  duration: May. 2013 &mdash; Aug. 2013
-#  summary: Responsible for supporting on-the-move (OTM) and at-the-halt (ATH) military ISP architecture.
-
-# Various
-- company: Providence College
-  position: PC Information Technology (PCIT) & Ghana Sustainable Aid Project (GSAP)
-  duration: Sept. 2010  &mdash; Aug. 2012
-#  summary: <ul class="resume-item-list"><li><b>Computer Technician for PCIT</b> responsible for maintenance and deployment of faculty workstations.</li><li><b>Community-Based Service Intern in Accra, Ghana</b> responsible for developing a computer image in Ubuntu Linux for the GSAP's Education Portal, for use in an internet cafe within Pokuase Village in Ga West, Ghana.</li><li><b>Research Assistant for GSAP</b> responsible for modeling a toilet prototype in Google Sketchup for use in developing nations.</li><li><b>Helpdesk Assistant for PCIT Helpdesk</b> the first line of defense for campus staff & student issues.</li></ul>
+  duration: 2013 &mdash; 2015
+  summary: <ul class="resume-item-list"><li>Managed network infrastructure for trading platform environments with strict latency and uptime requirements.</li><li>Implemented monitoring and alerting pipelines for network performance and availability.</li></ul>
