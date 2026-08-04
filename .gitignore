@@ -1,9 +1,12 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-_site
-.sass-cache
+/.idea/
 .DS_Store
-_vendor
-.idea/
+
+# Jekyll / Bundler build artifacts
+/_site/
+/.sass-cache/
+/.jekyll-cache/
+/.jekyll-metadata
+/.bundle/
+/vendor/
+/_vendor/
+Gemfile.lock
