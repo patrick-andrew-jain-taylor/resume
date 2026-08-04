@@ -16,7 +16,7 @@ jobs:
       - name: Webpage to PDF
         uses: misaelnieto/web_to_pdf_action@master
         with:
-          webPageURL: https://resume.patrick.jaintaylor.family
+          webPageURL: https://resume.patrick.taylors.family
           outputFile: webpage/resume.pdf
           usePuppeteer: true
           useScreen: true

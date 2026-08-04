@@ -1,5 +1,5 @@
 # Site settings
-title: "Patrick Andrew Jain-Taylor"
+title: "Patrick Andrew Taylor"
 description: "Professional Resume - Inspired by https://github.com/jglovier/resume-template"
 
 # Build settings
@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Patrick A. Jain-Taylor"
+resume_name:                    "Patrick A. Taylor"
 resume_title:                   "Manager, DevOps Engineering"
 
 # used for the contact button in _layouts/resume.html
